@@ -1,0 +1,19 @@
+<h2>{{title}}</h2>
+<ul>
+    <h3>Quale libro vuoi aggiungere?</h3>
+    <li *ngFor="let book of books">
+
+        <img [src]="book.coverUrl">
+        <div>
+            {{book.title}}
+            <br> {{book.author}}
+            <br> {{book.publisher}}
+            <br> {{book.publicationDate}}
+            <br> {{book.ISBN}}
+            <br>
+        </div>
+
+
+
+    </li>
+</ul>

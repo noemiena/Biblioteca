@@ -1,0 +1,9 @@
+img {
+    width: 150px;
+}
+
+li {
+    display: flex;
+    flex-direction: column-reverse;
+    float: right;
+}
